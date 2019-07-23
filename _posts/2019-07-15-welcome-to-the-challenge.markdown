@@ -7,16 +7,21 @@ categories: competition
 lang: en
 ---
 
-## What is the *Visualize This!* Challenge?
+### What is the *Visualize This!* Challenge?
 
-Now in its third year, *Visualize This!* is a Canada-wide competition that aims to celebrate the
+Now in its 4th year, *Visualize This!* is a Canada-wide competition that aims to celebrate the
 innovative ways visualization can help researchers explore datasets and answer important scientific
 questions. *Visualize This!* is your chance to challenge your creativity, experiment with new
 visualization tools, and contribute to the growth of data visualization in Canada!
 
-This year’s *Visualize This!* Challenge is hosted by WestGrid, a regional partner of Compute
-Canada. Together with the Compute Canada Visualization Team, we want to bring your creative visualization
-ideas and workflows to life and make them accessible to all Canadian researchers!
+This year's *Visualize This!* Challenge is hosted by WestGrid, SciNet, and Calcul Québec -- three
+regional partners of Compute Canada. Together with (the-list-of-sponsors) and the Compute Canada
+Visualization Team, we want to bring your creative visualization ideas and workflows to life and make
+them accessible to all Canadian researchers!
+
+The theme of this year's challenge is **distributed rendering**, i.e. visualization of very large
+datasets that require parallel rendering on a cluster. Competition details will be announced and
+published here in mid-September.
 
 To participate in the Challenge, please [register your interest]().
 

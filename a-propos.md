@@ -1,8 +1,10 @@
 ---
 layout: page
-title: À propos
-ref: about
+title: F.A.Q.
+ref: faq
 lang: fr
 ---
 
-Quelques mots sur la visualisation scientifique et le rendu distribué en particulier.
+Questions Fréquemment Posées
+
+<!-- Quelques mots sur la visualisation scientifique et le rendu distribué en particulier. -->

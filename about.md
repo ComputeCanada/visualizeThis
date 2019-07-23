@@ -1,12 +1,14 @@
 ---
 layout: page
-title: About
+title: F.A.Q.
 permalink: /about/
-ref: about
+ref: faq
 lang: en
 ---
 
-Some words about scientific visualization and distributed rendering in particular.
+Frequently Asked Questions
+
+<!-- Some words about scientific visualization and distributed rendering in particular. -->
 
 <!-- raise awareness of the essential role visualization can play in helping researchers explore large -->
 <!-- datasets to answer important scientific questions -->

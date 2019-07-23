@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "History of Visualize This"
+title:  "History of <em>Visualize This!</em>"
 ref: history
 date:   2019-07-14 09:48:44 +0100
 categories: competition
 lang: en
 ---
+
+Select the year: &nbsp; [2016](#2016) &nbsp; [2017](#2017) &nbsp; [2018](#2018)
 
 ## 2016
 ### Visualizing multiple variables in a global ocean model
