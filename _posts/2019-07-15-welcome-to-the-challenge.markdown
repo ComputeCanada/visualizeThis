@@ -23,7 +23,7 @@ The theme of this year's challenge is **distributed rendering**, i.e. visualizat
 datasets that require parallel rendering on a cluster. Competition details will be announced and
 published here in mid-September.
 
-To participate in the Challenge, please [register your interest]().
+<!-- To participate in the Challenge, please [register your interest](). -->
 
 
 
