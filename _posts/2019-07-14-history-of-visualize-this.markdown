@@ -29,8 +29,8 @@ interactivity in their submission. A video of their submission can be viewed bel
 	allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 </div>
 
-Or click <a href="https://vimeo.com/193016949" target="_blank">here</a> to watch this video directly on
-Vimeo.
+<sup>(Or click <a href="https://vimeo.com/193016949" target="_blank">here</a> to watch this video
+directly on Vimeo.)</sup>
 
 "We started this project with a dream of being able to create layered visualizations on arbitrary
 surfaces to visualize multiple attributes, such as we can see commonly in 2D," said Rocha, at the time a
@@ -71,8 +71,8 @@ explanation of what forces exactly drive the blades.
 	allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 </div>
 
-Or click <a href="https://vimeo.com/246859562" target="_blank">here</a> to watch this video directly on
-Vimeo.
+<sup>(Or click <a href="https://vimeo.com/246859562" target="_blank">here</a> to watch this video
+directly on Vimeo.)</sup>
 
 #### Second place
 
@@ -96,8 +96,8 @@ her visualization:
 	allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 </div>
 
-Or click <a href="https://vimeo.com/246879618" target="_blank">here</a> to watch this video directly on
-Vimeo.
+<sup>(Or click <a href="https://vimeo.com/246879618" target="_blank">here</a> to watch this video
+directly on Vimeo.)</sup>
 
 #### Third place
 
@@ -117,8 +117,8 @@ engine.
 	allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 </div>
 
-Or click <a href="https://vimeo.com/246882338" target="_blank">here</a> to watch this video directly on
-Vimeo.
+<sup>(Or click <a href="https://vimeo.com/246882338" target="_blank">here</a> to watch this video
+directly on Vimeo.)</sup>
 
 
 
@@ -186,8 +186,8 @@ either text or draggable spheres.
 	allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 </div>
 
-Or click <a href="https://vimeo.com/306261749" target="_blank">here</a> to watch this video directly on
-Vimeo.
+<sup>(Or click <a href="https://vimeo.com/306261749" target="_blank">here</a> to watch this video
+directly on Vimeo.)</sup>
 
 ### Second place
 
@@ -206,8 +206,8 @@ ParaView. You can download an edited version of their Python analysis script [he
 	allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 </div>
 
-Or click <a href="https://vimeo.com/306277152" target="_blank">here</a> to watch this video directly on
-Vimeo.
+<sup>(Or click <a href="https://vimeo.com/306277152" target="_blank">here</a> to watch this video
+directly on Vimeo.)</sup>
 
 ### Third place
 
