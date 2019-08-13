@@ -55,10 +55,15 @@ matter what your research area may be.
 
 Yes. Assuming that you are using your own data, your visualization does not need to be developed or
 implemented on WestGrid or Compute Canada's platforms. However, if you would like to use WestGrid or
-Compute Canada computational resources for your visualization, you can register for an account
-[here](https://www.computecanada.ca/research-portal/account-management/apply-for-an-account). If you have
-any questions about getting an account, please email *accounts@computecanada.ca*. Also note that the
-default dataset is provided on Cedar and Graham clusters for which you need a Compute Canada account.
+Compute Canada computational resources for your visualization, or if you want to access the default
+dataset, you can register for an account <a
+href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account"
+target="_blank">here</a>. If you have any questions about getting an account, please email
+*accounts@computecanada.ca*. Please note that the default dataset is provided on Cedar and Graham
+clusters for which you need a Compute Canada account.
+
+You don't need a Compute Canada account if you want to visualize your own dataset on a third-party
+distributed-memory machine.
 
 > I am not affiliated with a Canadian university, post-secondary institution, or research
 > organization. Can I participate in the Challenge?
@@ -171,3 +176,5 @@ from each participant will be what is considered the final for submission.
 <!-- You can find the source code for Jekyll at -->
 <!-- {% include icon-github.html username="jekyll" %} / -->
 <!-- [jekyll](https://github.com/jekyll/jekyll) -->
+
+<!-- <a href="link" target="_blank">text</a> -->
