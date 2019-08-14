@@ -1,23 +1,13 @@
 ---
 layout: post
-title:  "Welcome to the 2019 challenge!"
+title:  "2019 competition details"
 ref: welcome
 date:   2019-07-15 09:48:44 +0100
 categories: competition
 lang: en
 ---
 
-### What is the *Visualize This!* Challenge?
-
-Now in its 4th year, *Visualize This!* is a Canada-wide competition that aims to celebrate the
-innovative ways visualization can help researchers explore datasets and answer important scientific
-questions. *Visualize This!* is your chance to challenge your creativity, experiment with new
-visualization tools, and contribute to the growth of data visualization in Canada!
-
-This year's *Visualize This!* Challenge is hosted by WestGrid, SciNet, and Calcul Québec -- three
-regional partners of Compute Canada. Together with (the-list-of-sponsors) and the Compute Canada
-Visualization Team, we want to bring your creative visualization ideas and workflows to life and make
-them accessible to all Canadian researchers!
+<!-- ### What is the *Visualize This!* Challenge? -->
 
 The theme of this year's challenge is **distributed rendering**, in other words, visualization of very
 large datasets that require parallel rendering on a cluster. To participate in the challenge, please
@@ -27,8 +17,8 @@ large datasets that require parallel rendering on a cluster. To participate in t
 
 We encourage you to use data from your own research, if you have a sufficiently large dataset. Any
 dataset that is too large to be rendered on a standalone desktop/workstation will qualify for this
-competition. A typical example would be a time-dependent simulation in which disk space required to store
-each timestep is comparable to or exceeds the workstation's RAM.
+competition. A classic example is a time-dependent simulation in which disk space required to store each
+timestep is comparable to or exceeds the workstation's RAM.
 
 ### Option 2: use the supplied ("default") dataset
 
@@ -77,7 +67,7 @@ directly on Vimeo.)</sup>
 The dataset itself will be provided at the end of September on Cedar and Graham clusters. You will need a
 <a href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account"
 target="_blank">Compute Canada account</a> to access the data. Since the dataset is ~1.04 TB in size, we
-stronly advise not to copy it. Instead, please read it directly into your visualization program from the
+stronly advise not to copy it. Instead, please read it directly into your visualization program from its
 original location.
 
 Submissions are due by midnight Pacific Time on November 30, 2019.
