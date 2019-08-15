@@ -65,7 +65,7 @@ disk.
 directly on Vimeo.)</sup>
 
 Here is a more detailed look at the separation of the laminar boundary layer from the airfoil surface and
-its transition to turbulence (this rendering took 17 minutes on 64 cores on Cedar):
+its transition to turbulence (this rendering took 17 minutes on 64 CPU cores on Cedar):
 
 <div class="flex-video">
 	<iframe width="650" height="350" src="https://player.vimeo.com/video/354038712" frameborder="0"
