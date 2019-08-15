@@ -64,8 +64,9 @@ disk.
 <sup>(Or click <a href="https://vimeo.com/353444320" target="_blank">here</a> to watch this video
 directly on Vimeo.)</sup>
 
-Here is a more detailed look at the separation of the laminar boundary layer from the airfoil surface and
-its transition to turbulence (this rendering took 17 minutes on 64 CPU cores on Cedar):
+Below is a more detailed look at the separation of the laminar boundary layer from the airfoil surface
+and its transition to turbulence. This more complex rendering shows the isosurface of constant air speed
+coloured by the Y-component of the vorticity and took 17 minutes on 128 CPU cores on Cedar.
 
 <div class="flex-video">
 	<iframe width="650" height="350" src="https://player.vimeo.com/video/354038712" frameborder="0"
