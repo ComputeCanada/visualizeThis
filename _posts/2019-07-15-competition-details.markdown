@@ -64,6 +64,18 @@ disk.
 <sup>(Or click <a href="https://vimeo.com/353444320" target="_blank">here</a> to watch this video
 directly on Vimeo.)</sup>
 
+Here is a more detailed look at the separation of the laminar boundary layer from the airfoil surface and
+its transition to turbulence:
+
+<div class="flex-video">
+	<iframe width="650" height="350" src="https://player.vimeo.com/video/354038712" frameborder="0"
+	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+	allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+</div>
+
+<sup>(Or click <a href="https://vimeo.com/354038712" target="_blank">here</a> to watch this video
+directly on Vimeo.)</sup>
+
 The dataset itself will be provided at the end of September on Cedar and Graham clusters. You will need a
 <a href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account"
 target="_blank">Compute Canada account</a> to access the data. Since the dataset is ~1.04 TB in size, we
