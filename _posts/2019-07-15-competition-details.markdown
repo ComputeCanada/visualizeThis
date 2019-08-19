@@ -77,11 +77,12 @@ speed coloured by the Y-component of the vorticity took 17 minutes on 128 CPU co
 <sup>(Or click <a href="https://vimeo.com/354038712" target="_blank">here</a> to watch this video
 directly on Vimeo.)</sup>
 
-The dataset itself will be provided at the end of September on Cedar and Graham clusters. You will need a
-<a href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account"
-target="_blank">Compute Canada account</a> to access the data. Since the dataset is ~1.04 TB in size, we
-stronly advise not to copy it. Instead, please read it directly into your visualization program from its
-original location.
+The dataset itself will be provided at the end of September on Cedar, Graham, Niagara, and Béluga
+clusters. You will need a <a
+href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account"
+target="_blank">Compute Canada account</a> (free to all Canadian researchers) to access the data. Since
+the dataset is ~1.04 TB in size, we stronly advise *not* to copy or download it to your machine. Instead,
+please read it directly into your visualization program from its original location.
 
 Submissions are due by midnight Pacific Time on November 30, 2019.
 

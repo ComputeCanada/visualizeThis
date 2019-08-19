@@ -31,7 +31,7 @@ register your interest.
 
 > What are the deadlines?
 
-The dataset will be available on Cedar and Graham clusters from October 1, with
+The dataset will be available on Cedar, Graham, Niagara, and Béluga clusters from October 1, with
 submissions due by midnight Pacific Time on November 30, 2019. Winners will be announced in December.
 
 > How will my application be judged?
@@ -56,11 +56,11 @@ matter what your research area may be.
 Yes. Assuming that you are using your own data, your visualization does not need to be developed or
 implemented on WestGrid or Compute Canada's platforms. However, if you would like to use WestGrid or
 Compute Canada computational resources for your visualization, or if you want to access the default
-dataset, you can register for an account <a
+dataset, you can register for a free account <a
 href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account"
 target="_blank">here</a>. If you have any questions about getting an account, please email
-*accounts@computecanada.ca*. Please note that the default dataset is provided on Cedar and Graham
-clusters for which you need a Compute Canada account.
+*accounts@computecanada.ca*. Please note that the default dataset is provided on Cedar, Graham, Niagara,
+and Béluga clusters for which you need a Compute Canada account.
 
 You don't need a Compute Canada account if you want to visualize your own dataset on a third-party
 distributed-memory machine.
