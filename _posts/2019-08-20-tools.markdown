@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Parallel visualization tools"
+ref: tools
+date:   2019-08-20 09:48:44 +0100
+categories: competition
+lang: en
+---
+
+
+
+### abc
+

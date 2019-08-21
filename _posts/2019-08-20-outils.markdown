@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Outils de visualisation parallèles"
+ref: tools
+date:   2019-08-20 09:48:44 +0100
+categories: competition
+lang: fr
+---
+
+
+
+### abc
+
