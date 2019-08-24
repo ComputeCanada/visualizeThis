@@ -8,13 +8,18 @@ lang: en
 ---
 
 We will describe here a couple of open source visualization tools.
-This years, the "Visualize This challenge focuses in parallel rendering and large datastes that could not be done with a simple workstation.
-Hence paralel processing fo the data and execution of the visualization pipeline is needed.
-Both of the tools we describe in the followiing sections are designed with visualization and HPC principles in mind.
-They are cross-platform, ie., they can run in different Operating Systems, although we will again recommend and require that participants execute their visualization pipelines and renderings in a cluster enviroment taking advantage of parallel rendering.
-They are perfectly well suited for running in HPC cluster environments, can run in client-server mode and take full advantage of multi-core and multi-node architectures, as well as, batch rendering.
+This years, the "Visualize This" challenge focuses in tackling large datasets and parallel rendering that could not be done using a simple workstation.
+Hence parallel processing of the data and execution of the visualization pipeline is needed.
+Both of the tools we describe in the following sections are designed with visualization and HPC principles in mind.
+They are cross-platform, ie. they can run in different Operating Systems (OS), although we will again recommend and require that participants execute their visualization pipelines and renderings in a cluster enviroment taking advantage of parallel rendering.
+These tools are perfectly well suited for running in HPC cluster environments, can run in client-server mode and take full advantage of multi-core and multi-node architectures, as well as, batch rendering.
 
 Of course there are many other tools that can be used, but here we will restrict to discuss and present, VisIt and ParaView.
+
+VisIt and ParaView share many common features, for instnace, they can be installed as precompiled binaries or by downloading the source codes and compiling them. There are versions available for Linux, Windows, and MacOS.
+Both of them offer an interactive mode via a GUI, a command-line intrerface (CLI) and scripting using different languages, including python. They can also run in bathc mode, specially recommended for using in HPC clusters.
+
+If participants are not familiar with them, they are quite easy to learn and we recommend users to install a local version in their computers, investigate and practise with them first. We offer several links and references to workshop we have done utilizing VisIt and ParaView and the bottom of this section.
 
 ### VisIt
 Currently developed and maintained by Lawrence Livermore National Lab, https://wci.llnl.gov/simulation/computer-codes/visit/.
