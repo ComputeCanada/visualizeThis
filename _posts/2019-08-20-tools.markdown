@@ -17,8 +17,20 @@ They are perfectly well suited for running in HPC cluster environments, can run 
 Of course there are many other tools that can be used, but here we will restrict to discuss and present, VisIt and ParaView.
 
 ### VisIt
+Currently developed and maintained by Lawrence Livermore National Lab, https://wci.llnl.gov/simulation/computer-codes/visit/.
+VisIt is an Open Source, interactive, scalable, visualization, animation and analysis tool.
+VisIt can read hundred of different file formats, including OpenFOAM ones.
+
+VisIt documentation: https://visit-sphinx-github-user-manual.readthedocs.io/
+
 
 ### ParaView
+Originally started as a collaboration between Los Alamos National Lab and Kitware, currently is developed and mantained by Kitware, https://www.paraview.org/.
+ParaView is an open-source, multi-platform data analysis and visualization application.
+ParaView can read hundred of different file formats, inclduing OpenFOAM ones.
+
+For isntance for loading the data from this challegne, you just need to locate the XXXX file and open it in ParaView.
+
 
 
 ### Further Resources:
