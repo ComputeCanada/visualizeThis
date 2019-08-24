@@ -50,6 +50,13 @@ For instance, to load the data from this challegne, you just need to locate the 
 
 
 ### Other Tools
+#### Blender
+Blender, https://www.blender.org, is more of --what we would call- an artistic visualization tool than a proper "Scientific Visualization" one, in comparison to Visit and ParaView.
+Nevertheless the quality that one can reach is similar to "hollywood" characteristics.
+Because of the complexity and large set of functionalities Blender offers, the learning curve is quite steep, in particular for mastering its more underlying features.
+It not only offer some typical visualization algorithm, but also adds the ability of importing models, objects, as well as, provides several engines to simulate quite realistic scenarios.
+Even when this is a quite power tool, unless the participants feel really comfortable using Blender and have reached a profiency using it, we will not recommend to tackle the challenge using Blender. 
+
 
 
 ### Further Resources:
