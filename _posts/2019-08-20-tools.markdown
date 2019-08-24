@@ -17,25 +17,35 @@ These tools are perfectly well suited for running in HPC cluster environments, c
 Of course there are many other tools that can be used, but here we will restrict to discuss and present, VisIt and ParaView.
 
 VisIt and ParaView share many common features, for instnace, they can be installed as precompiled binaries or by downloading the source codes and compiling them. There are versions available for Linux, Windows, and MacOS.
-Both of them offer an interactive mode via a GUI, a command-line intrerface (CLI) and scripting using different languages, including python. They can also run in bathc mode, specially recommended for using in HPC clusters.
+Both of them offer an interactive mode via a GUI, a command-line intrerface (CLI) and scripting using different languages, including python. They can also run in batch mode, specially recommended for using in HPC clusters.
+One really useful feature that both programs offer and super-convenient at the moment of generating batch processing scripts, is the tool for "recording" the actions taken using the GUI and generated as a python sequence of commands into an actual script.
+Then this script can be executed, tailored and modified accordingly.
 
-If participants are not familiar with them, they are quite easy to learn and we recommend users to install a local version in their computers, investigate and practise with them first. We offer several links and references to workshop we have done utilizing VisIt and ParaView and the bottom of this section.
+If participants are not familiar with these tools, they are quite easy to learn and we recommend users to install a local version in their computers, investigate and practise with them first. We offer several links and references to workshop we have done utilizing VisIt and ParaView and the bottom of this section.
+
+In addition to visualization capabilities, both ParaView and Visit, also offer analysis tools. Many times visualization is not only used to generate "pretty" images or movies, but also as an exploratory tool, and again these two programs are excelletn tools to acheive this too. Either using their GUIs or the CLIs via scripting, all types of queries and analysis can be done on the datasets loaded in these visualization engines.
+
 
 ### VisIt
 Currently developed and maintained by Lawrence Livermore National Lab, https://wci.llnl.gov/simulation/computer-codes/visit/.
 VisIt is an Open Source, interactive, scalable, visualization, animation and analysis tool.
 VisIt can read hundred of different file formats, including OpenFOAM ones.
 
-VisIt documentation: https://visit-sphinx-github-user-manual.readthedocs.io/
+In the latest versions of VisIt we have noticed that it can be tricky to make it work with certain Linux distributions, in particular Ubuntu 17+. If you are experiencing problems , please feel free to contact us.
 
+VisIt documentation: https://visit-sphinx-github-user-manual.readthedocs.io/
+VisIt Users wiki: http://www.visitusers.org/
+VisIt Users Forum: http://www.visitusers.org/forum/
 
 ### ParaView
 Originally started as a collaboration between Los Alamos National Lab and Kitware, currently is developed and mantained by Kitware, https://www.paraview.org/.
 ParaView is an open-source, multi-platform data analysis and visualization application.
 ParaView can read hundred of different file formats, inclduing OpenFOAM ones.
 
-For isntance for loading the data from this challegne, you just need to locate the XXXX file and open it in ParaView.
+For instance for loading the data from this challegne, you just need to locate the XXXX file and open it in ParaView.
 
+
+### Other Tools
 
 
 ### Further Resources:
