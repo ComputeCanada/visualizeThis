@@ -16,7 +16,7 @@ These tools are perfectly well suited for running in HPC cluster environments, c
 
 Of course there are many other tools that can be used, but here we will restrict to discuss and present, VisIt and ParaView.
 
-VisIt and ParaView share many common features, for instnace, they can be installed as precompiled binaries or by downloading the source codes and compiling them. There are versions available for Linux, Windows, and MacOS.
+VisIt and ParaView share many common features, for instance, they can be installed as precompiled binaries or by downloading the source codes and compiling them. There are versions available for Linux, Windows, and Mac OS.
 Both of them offer an interactive mode via a GUI, a command-line intrerface (CLI) and scripting using different languages, including python. They can also run in batch mode, specially recommended for using in HPC clusters.
 One really useful feature that both programs offer and super-convenient at the moment of generating batch processing scripts, is the tool for "recording" the actions taken using the GUI and generated as a python sequence of commands into an actual script.
 Then this script can be executed, tailored and modified accordingly.
