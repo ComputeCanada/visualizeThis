@@ -31,7 +31,7 @@ Currently developed and maintained by Lawrence Livermore National Lab, https://w
 VisIt is an Open Source, interactive, scalable, visualization, animation and analysis tool.
 VisIt can read hundred of different file formats, including OpenFOAM ones.
 
-In the latest versions of VisIt we have noticed that it can be tricky to make it work with certain Linux distributions, in particular Ubuntu 17+. If you are experiencing problems , please feel free to contact us.
+In the latest versions of VisIt we have noticed that it can be tricky to make it work with certain Linux distributions, in particular Ubuntu 17 or newer versions. If you are experiencing problems, please feel free to contact us.
 
 
 VisIt documentation: https://visit-sphinx-github-user-manual.readthedocs.io/
