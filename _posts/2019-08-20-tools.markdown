@@ -8,22 +8,22 @@ lang: en
 ---
 
 We will describe here a couple of open source visualization tools.
-This years, the "Visualize This" challenge focuses in tackling large datasets and parallel rendering that could not be done using a simple workstation.
+This years, the "Visualize This" challenge focuses in tackling large data sets and parallel rendering that could not be done using a simple workstation.
 Hence parallel processing of the data and execution of the visualization pipeline is needed.
 Both of the tools we describe in the following sections are designed with visualization and HPC principles in mind.
-They are cross-platform, ie. they can run in different Operating Systems (OS), although we will again recommend and require that participants execute their visualization pipelines and renderings in a cluster enviroment taking advantage of parallel rendering.
+They are cross-platform, ie. they can run in different Operating Systems (OS), although we will again recommend and require that participants execute their visualization pipelines and renderings in a cluster environment taking advantage of parallel rendering.
 These tools are perfectly well suited for running in HPC cluster environments, can run in client-server mode and take full advantage of multi-core and multi-node architectures, as well as, batch rendering.
 
 Of course there are many other tools that can be used, but here we will restrict to discuss and present, VisIt and ParaView.
 
 VisIt and ParaView share many common features, for instance, they can be installed as precompiled binaries or by downloading the source codes and compiling them. There are versions available for Linux, Windows, and Mac OS.
-Both of them offer an interactive mode via a GUI, a command-line intrerface (CLI) and scripting using different languages, including python. They can also run in batch mode, specially recommended for using in HPC clusters.
+Both of them offer an interactive mode via a GUI, a command-line interface (CLI) and scripting using different languages, including python. They can also run in batch mode, specially recommended for using in HPC clusters.
 One really useful feature that both programs offer and super-convenient at the moment of generating batch processing scripts, is the tool for "recording" the actions taken using the GUI and generated as a python sequence of commands into an actual script.
 Then this script can be executed, tailored and modified accordingly.
 
 If participants are not familiar with these tools, they are quite easy to learn and we recommend users to install a local version in their computers, investigate and practise with them first. We offer several links and references to workshop we have done utilizing VisIt and ParaView and the bottom of this section.
 
-In addition to visualization capabilities, both ParaView and Visit, also offer analysis tools. Many times visualization is not only used to generate "pretty" images or movies, but also as an exploratory tool, and again these two programs are excelletn tools to acheive this too. Either using their GUIs or the CLIs via scripting, all types of queries and analysis can be done on the datasets loaded in these visualization engines.
+In addition to visualization capabilities, both ParaView and Visit, also offer analysis tools. Many times visualization is not only used to generate "pretty" images or movies, but also as an exploratory tool, and again these two programs are excellent tools to achieve this too. Either using their GUIs or the CLIs via scripting, all types of queries and analysis can be done on the data sets loaded in these visualization engines.
 
 
 ### VisIt
@@ -42,26 +42,26 @@ VisIt Users Forum: http://www.visitusers.org/forum/
 
 
 ### ParaView
-Originally started as a collaboration between Los Alamos National Lab and Kitware, currently is developed and mantained by Kitware, https://www.paraview.org/.
+Originally started as a collaboration between Los Alamos National Lab and Kitware, currently is developed and maintained by Kitware, https://www.paraview.org/.
 ParaView is an open-source, multi-platform data analysis and visualization application.
-ParaView can read hundred of different file formats, inclduing OpenFOAM ones.
+ParaView can read hundred of different file formats, including OpenFOAM ones.
 
-For instance, to load the data from this challegne, you just need to locate the "case.foam" file located in the directory of the dataset and open it in ParaView. This is a dummy empty file, that ParaView can understand and uses as a guide to identify and load all the data from an OpenFOAM simulation.
+For instance, to load the data from this challenge, you just need to locate the "case.foam" file located in the directory of the data set and open it in ParaView. This is a dummy empty file, that ParaView can understand and uses as a guide to identify and load all the data from an OpenFOAM simulation.
 
 
 ### Other Tools
 #### Blender
 Blender, https://www.blender.org, is more of --what we would call-- an artistic visualization and animation tool than a proper "Scientific Visualization" one, in comparison to Visit and ParaView.
-Nevertheless the quality that visualizations and animarions can reach using Blender, is similar to "hollywood" characteristics.
+Nevertheless the quality that visualizations and animations can reach using Blender, is similar to "Hollywood" characteristics.
 Because of the complexity and large set of functionalities Blender offers, the learning curve is quite steep, in particular for mastering its more outstanding and remarkable features.
-Blender not only offer the typical or tradiitonal visualization algorithms, but also adds the ability of importing models, objects, as well as, provides several engines to simulate quite realistic scenarios.
-Even when this is a quite power tool, unless the participants feel really comfortable using Blender and have reached certain level of profiency using it, we will not recommend to tackle the challenge using Blender.
+Blender not only offer the typical or traditional visualization algorithms, but also adds the ability of importing models, objects, as well as, provides several engines to simulate quite realistic scenarios.
+Even when this is a quite power tool, unless the participants feel really comfortable using Blender and have reached certain level of proficiency using it, we will not recommend to tackle the challenge using Blender.
 
 
 
 ### Further Resources:
 
-#### Running VisIt and ParaView in Canada's National Clsuters:
+#### Running VisIt and ParaView in Canada's National Clusters:
 https://docs.computecanada.ca/wiki/Visualization
 
 https://docs.computecanada.ca/wiki/ParaView
