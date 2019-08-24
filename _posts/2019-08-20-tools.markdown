@@ -7,7 +7,25 @@ categories: competition
 lang: en
 ---
 
+We will describe here a couple of open source visualization tools.
+This years, the "Visualize This challenge focuses in parallel rendering and large datastes that could not be done with a simple workstation.
+Hence paralel processing fo the data and execution of the visualization pipeline is needed.
+Both of the tools we describe in the followiing sections are designed with visualization and HPC principles in mind.
+They are cross-platform, ie., they can run in different Operating Systems, although we will again recommend and require that participants execute their visualization pipelines and renderings in a cluster enviroment taking advantage of parallel rendering.
+They are perfectly well suited for running in HPC cluster environments, can run in client-server mode and take full advantage of multi-core and multi-node architectures, as well as, batch rendering.
+
+Of course there are many other tools that can be used, but here we will restrict to discuss and present, VisIt and ParaView.
+
+### VisIt
+
+### ParaView
 
 
-### abc
+### Further Resources:
 
+#### Running VisIt and ParaView in Canada's National Clsuters:
+https://docs.computecanada.ca/wiki/Visualization
+
+https://docs.computecanada.ca/wiki/ParaView
+
+https://docs.computecanada.ca/wiki/VisIt
