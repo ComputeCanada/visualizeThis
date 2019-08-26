@@ -48,6 +48,11 @@ ParaView can read hundred of different file formats, including OpenFOAM ones.
 
 For instance, to load the data from this challenge, you just need to locate the "case.foam" file located in the directory of the data set and open it in ParaView. This is a dummy empty file, that ParaView can understand and uses as a guide to identify and load all the data from an OpenFOAM simulation.
 
+#### ParaView Highlights
+* Release Notes: https://www.paraview.org/Wiki/ParaView_Release_Notes
+* Line Integral Convolution: https://www.paraview.org/Wiki/ParaView/Line_Integral_Convolution 
+* NVIDIA plugin:  https://www.nvidia.com/en-us/data-center/index-paraview-plugin/
+
 
 ### Other Tools
 #### Blender
