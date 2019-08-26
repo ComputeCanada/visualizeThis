@@ -66,6 +66,8 @@ capable of reading over a hundred different file formats, including OpenFOAM. To
 default dataset, you need to load the file `case.foam` in its top-level directory. This is a dummy, empty
 file that ParaView uses as a guide to identify and load the OpenFOAM simulation data.
 
+* <a href="http://www.paraview.org/documentation" target="_blank">Official ParaView documentation</a>
+* <a href="https://discourse.paraview.org" target="_blank">ParaView Discourse</a> (forum)
 * <a href="https://www.paraview.org/Wiki/ParaView_Release_Notes" target="_blank">Latest ParaView release notes</a>
 * <a href="https://www.paraview.org/Wiki/ParaView/Line_Integral_Convolution" target="_blank">Line
   Integral Convolution technique</a>
@@ -86,7 +88,7 @@ In the latest versions of VisIt we noticed that it can be tricky to make it work
 distributions, in particular Ubuntu 17 or newer versions. If you are experiencing problems, please feel
 free to [contact us](mailto:viz-challenge@westgrid.ca).
 
-* <a href="https://visit-sphinx-github-user-manual.readthedocs.io" target="_blank">VisIt documentation</a>
+* <a href="https://visit-sphinx-github-user-manual.readthedocs.io" target="_blank">Official VisIt documentation</a>
 * <a href="http://www.visitusers.org" target="_blank">VisIt Users wiki</a>
 * <a href="http://www.visitusers.org/forum" target="_blank">VisIt Users Forum</a>
 * <a href="https://wci.llnl.gov/simulation/computer-codes/visit/new" target="_blank">VisIt release notes</a>
