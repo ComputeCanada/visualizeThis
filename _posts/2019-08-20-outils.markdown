@@ -7,7 +7,4 @@ categories: competition
 lang: fr
 ---
 
-
-
-### abc
-
+French translation is coming shortly.
