@@ -34,13 +34,10 @@ VisIt can read hundred of different file formats, including OpenFOAM ones.
 In the latest versions of VisIt we have noticed that it can be tricky to make it work with certain Linux distributions, in particular Ubuntu 17 or newer versions. If you are experiencing problems, please feel free to contact us.
 
 #### VisIt links
-VisIt documentation:  https://visit-sphinx-github-user-manual.readthedocs.io/
-
-VisIt Users wiki:  http://www.visitusers.org/
-
-VisIt Users Forum:  http://www.visitusers.org/forum/
-
-Release Notes:  https://wci.llnl.gov/simulation/computer-codes/visit/new
+* VisIt documentation:  https://visit-sphinx-github-user-manual.readthedocs.io/
+* VisIt Users wiki:  http://www.visitusers.org/
+* VisIt Users Forum:  http://www.visitusers.org/forum/
+* Release Notes:  https://wci.llnl.gov/simulation/computer-codes/visit/new
 
 
 ### ParaView
