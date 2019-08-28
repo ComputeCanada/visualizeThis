@@ -25,7 +25,8 @@ rendering, and working either in client-server or batch offscreen rendering mode
 
 There are other parallel tools you can use besides ParaView and VisIt, down to writing your own code and
 decomposing the rendering problem with parallel MPI programming. However, these solutions will likely be
-lower level and hence not recommended for this competition.
+lower level and hence not recommended for this competition, unless you are visualizing your own data and
+have a very domain-specific workflow.
 
 Both ParaView and VisIt can be installed as precompiled binaries or compiled from source code. Both offer
 an interactive GUI and a Python command-line / scripting interface, along with a "recording" tool to
