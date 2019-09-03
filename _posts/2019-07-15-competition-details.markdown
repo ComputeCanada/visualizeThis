@@ -10,8 +10,9 @@ lang: en
 <!-- ### What is the *Visualize This!* Challenge? -->
 
 The theme of this year's challenge is **distributed rendering**, in other words, visualization of very
-large datasets that require parallel rendering on a cluster. To participate in the challenge, please
-[register your interest]().
+large datasets that require parallel rendering on a cluster. To participate in the challenge, please <a
+href="https://www.eventbrite.ca/e/4th-annual-visualize-this-challenge-registration-71335547543"
+target="_blank">register your interest</a>.
 
 ### Option 1: use your own data
 

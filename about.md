@@ -10,8 +10,10 @@ lang: en
 
 > How do I register to participate in the Visualize This! Challenge?
 
-Anyone interested in this competition must [register their interest here](). If you have any questions,
-please contact us [via email](mailto:viz-challenge@westgrid.ca).
+Anyone interested in this competition must <a
+href="https://www.eventbrite.ca/e/4th-annual-visualize-this-challenge-registration-71335547543"
+target="_blank">register your interest here</a>. If you have any questions, please contact us
+[via email](mailto:viz-challenge@westgrid.ca).
 
 > Can we work in a team?
 
@@ -25,9 +27,9 @@ small as you like.
 
 > Do all team members need to register their interest?
 
-No. Only one member of the team needs to register your interest in the challenge. Click
-[here](https://www.eventbrite.ca/e/3rd-annual-visualize-this-challenge-registration-48899166724) to
-register your interest.
+No. Only one member of the team needs to register your interest in the challenge. Click <a
+href="https://www.eventbrite.ca/e/4th-annual-visualize-this-challenge-registration-71335547543"
+target="_blank">here</a> to register your interest.
 
 > What are the deadlines?
 
