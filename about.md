@@ -38,12 +38,19 @@ submissions due by midnight Pacific Time on November 30, 2019. Winners will be a
 
 > How will my application be judged?
 
-Submissions will be reviewed by members of the Compute Canada Visualization Team. Points will be given
-for:
-- interactive visualizations,
-- visualizing the 3D multi-scale nature of the data,
-- online presentation in a browser, and
-- clear innovative display of multiple variables.
+Submissions will be reviewed by members of the Compute Canada Visualization Team. In general, points will
+be given for impressive renderings of large-scale data. We would like to see some timing data, showing
+how long it takes to render your visualization on the cluster and the resources you used. We are
+interested in seeing:
+
+- inventive combination of ParaView filters or VisIt operators,
+- *if applicable to your dataset:* visualizing the 3D multi-scale nature of the data,
+- *if applicable to your dataset:* clear innovative display of multiple variables.
+
+Given large scale of the data and hence large rendering times, interactive visualizations and/or online
+presentations are particularly difficult, but are not impossible with more advanced tools such as
+ParaView Cinema (early pioneering project) and <a href="https://cinemascience.github.io"
+target="_blank">Cinema Science</a>.
 
 > Who is eligible to participate?
 

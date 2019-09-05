@@ -85,9 +85,11 @@ href="https://wci.llnl.gov/simulation/computer-codes/visit" target="_blank">VisI
 interactive scalable visualization, animation, and analysis tool. VisIt can read over a hundred different
 file formats too, including OpenFOAM data.
 
-In the latest versions of VisIt we noticed that it can be tricky to make it work with certain Linux
-distributions, in particular Ubuntu 17 or newer versions. If you are experiencing problems, please feel
-free to [contact us](mailto:viz-challenge@westgrid.ca).
+In the latest (3.x) versions of VisIt, we noticed that it can be tricky to make it work with certain
+Linux distributions, in particular Ubuntu 17 or newer versions. In the same 3.x release, we experienced
+frequent crashes when drawing plots with remote client-server rendering. For these reasons, we provide
+only 2.3.x on our clusters. If you are experiencing similar issues, please feel free to
+[contact us](mailto:viz-challenge@westgrid.ca).
 
 * <a href="https://visit-sphinx-github-user-manual.readthedocs.io" target="_blank">Official VisIt documentation</a>
 * <a href="http://www.visitusers.org" target="_blank">VisIt Users wiki</a>
