@@ -7,4 +7,83 @@ categories: competition
 lang: fr
 ---
 
-French translation is coming shortly.
+Cette année, Faites-nous voir ça! se concentre sur le traitement et la visualisation de grands ensembles
+de données avec un rendu parallèle. ParaView et VisIt ont été conçus pour une visualisation
+parallèle. Les deux outils sont multi-plateforme (Linux, Windows et MacOS), même si nous recommandons
+vivement aux participants d'exécuter leur processus de visualisation dans un environnement de calcul
+informatique de pointe (CIP ou High Perfomance Computing, HPC, en anglais) en tirant parti rendu
+parallèle, et travailler en mode de rendu client-serveur ou de façon automatique sans interface
+utilisateur.
+
+Outre ParaView et VisIt, vous pouvez utiliser d'autres outils parallèles ou utiliser votre propre code
+pour faire le rendu avec la programmation MPI parallèle. Cependant, ces solutions seront probablement de
+niveau inférieur et donc déconseillées pour ce concours, sauf si vous visualisez vos propres données et
+disposez d'un processus de travail très spécifique à un domaine.
+
+ParaView et VisIt peuvent être installés en tant que fichiers binaires précompilés ou compilés à partir
+du code source. Les deux logiciels offrent une interface graphique interactive et une interface de script
+/ ligne de commande Python, ainsi qu'un outil "d'enregistrement" permettant de convertir les actions de
+l'interface graphique en code Python. Ce code peut ensuite être modifié et converti en un script de
+traitement automatique à exécuter sur un supercalculateur.
+
+Si vous ne connaissez ni ParaView ni VisIt, les deux méthodes sont assez faciles à maîtriser et nous vous
+recommandons d’installer et d’expérimenter une version locale sur votre ordinateur avant toute tentative
+de rendu en parallèle. Au bas de cette page, vous trouverez plusieurs liens vers de la documentation en
+ligne sur ParaView et VisIt.
+
+En plus de leurs capacités de visualisation, ParaView et Visit offrent un riche ensemble d'outils
+d'exploration et d'analyse.
+
+### ParaView
+
+Paraview est une collaboration entre le Laboratoire national de Los Alamos et Kitware Inc. Il est à
+présent principalement développé et mis à jour par Kitware Inc. ParaView est une application ouverte
+multi-plateforme d'analyse et de visualisation de données capable de lire plus d'une centaine de formats
+de fichiers différents, incluant OpenFOAM. Pour charger le jeu de données fourni pour cette compétition,
+vous devez charger le fichier case.foam dans le répertoire principal. Il s’agit d’un fichier vide que
+ParaView utilise comme guide pour identifier et charger les données de simulation OpenFOAM.
+
+* <a href="http://www.paraview.org/documentation" target="_blank">Official ParaView documentation</a>
+* <a href="https://discourse.paraview.org" target="_blank">ParaView Discourse</a> (forum)
+* <a href="https://www.paraview.org/Wiki/ParaView_Release_Notes" target="_blank">Latest ParaView release notes</a>
+* <a href="https://www.paraview.org/Wiki/ParaView/Line_Integral_Convolution" target="_blank">Line
+  Integral Convolution technique</a>
+<!-- * NVIDIA plugin:  https://www.nvidia.com/en-us/data-center/index-paraview-plugin/ -->
+
+### VisIt
+
+Actuellement développé et mis à jour par le laboratoire national Lawrence Livermore, VisIt est un outil
+ouvert et interactif de visualisation, d'animation et d'analyse évolutive. VisIt peut également lire plus
+de cent formats de fichier, y compris les données OpenFOAM.
+
+Dans les dernières versions (3.x) de VisIt, nous avons remarqué qu'il peut être difficile de le faire
+fonctionner avec certaines distributions Linux, en particulier Ubuntu 17 ou des versions plus
+récentes. Dans la même version 3.x, nous rencontrions des problèmes fréquents lors de l’établissement de
+tracés avec un rendu client-serveur distant. Pour ces raisons, nous ne fournissons que 2.3.x sur nos
+machines. Si vous rencontrez des problèmes similaires, n'hésitez pas à nous contacter.
+
+* <a href="https://visit-sphinx-github-user-manual.readthedocs.io" target="_blank">Official VisIt documentation</a>
+* <a href="http://www.visitusers.org" target="_blank">VisIt Users wiki</a>
+* <a href="http://www.visitusers.org/forum" target="_blank">VisIt Users Forum</a>
+* <a href="https://wci.llnl.gov/simulation/computer-codes/visit/new" target="_blank">VisIt release notes</a>
+
+### Autres Outils
+
+#### Blender
+
+Par rapport à ParaView et à VisIt, Blender est davantage un outil de visualisation et d’animation
+artistique 3D qu’un logiciel de "visualisation scientifique". La qualité et le style des visualisations
+Blender peuvent atteindre un niveau "hollywoodien", mais en raison de sa complexité et de son grand
+nombre de fonctionnalités, la courbe d'apprentissage est assez abrupte, en particulier pour maîtriser les
+fonctionnalités les plus avancées et les plus attrayantes.
+
+Par exemple, Blender peut importer des scènes 3D à partir de logiciels de visualisation traditionnels et
+appliquer un rendu photoréaliste. Cependant, à moins que vous n'ayez déjà atteint un certain niveau de
+maîtrise de Blender, nous vous déconseillons de l'utiliser pour cette compétition.
+
+Ressources supplémentaires:
+
+* <a href="https://docs.computecanada.ca/wiki/Visualization" target="_blank">Visualization on Compute
+  Canada's national clusters</a>
+* <a href="https://westgrid.github.io/trainingMaterials/tools/visualization" target="_blank">WestGrid's
+  visualization training materials and webinars</a>
