@@ -39,7 +39,7 @@ only every third timestep (resulting in 86 steps) and five variables:
 - *Q* is second invariant of the velocity gradient tensor.
 
 Please note that while the first three variables (*p*, *U*, *vorticity*) are available for all 86
-timesteps, the last two (*Lambda2*, *Q*) are available only for the fist 57 timesteps. Also note that
+timesteps, the last two (*Lambda2*, *Q*) are available only for the fist 50 timesteps. Also note that
 around $$t=14.92308$$ the timestep increases.
 
 <!-- From the scientific perspective, -->

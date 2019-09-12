@@ -42,7 +42,7 @@ variables:
 - *Q* est le deuxième invariant du tenseur de gradient de vitesse.
 
 Veuillez noter que bien que les trois premières variables (p, U, Vorticity) soient disponibles pour les
-86 pas de temps, les deux dernières (Lambda2, Q) ne sont disponibles que pour les 57 premiers pas. Notez
+86 pas de temps, les deux dernières (Lambda2, Q) ne sont disponibles que pour les 50 premiers pas. Notez
 également que, autour de $$ t = 14.92308 $$, le pas de temps augmente.
 
 Ci-dessous, nous fournissons un rendu simple de la magnitude de la vitesse effectuée avec ParaView sur
