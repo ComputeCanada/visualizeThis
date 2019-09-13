@@ -19,16 +19,16 @@ dataset that is too large to be rendered on a standalone desktop/workstation wil
 competition. A classic example is a time-dependent simulation in which disk space required to store each
 timestep is comparable to or exceeds the workstation's RAM.
 
-### Option 2: use the supplied ("default") dataset
+### Option 2: use the supplied (default) dataset
 
-If you don't have access to such data, you can use a 3D computational fluid dynamics (CFD) dataset kindly
-provided for this competition by Joshua Brinkerhoff (UBC Okanagan). This dataset comes from an OpenFOAM
-numerical simulation of incompressible transitional air flow over a wind turbine section. The fluid is
-treated incompressible due to the low Mach number. The airfoil is NACA0018, a common research airfoil
-used to study wind turbine aerodynamics.
+If you don't have access to such data, you can use the 3D computational fluid dynamics (CFD) dataset
+kindly provided for this competition by Joshua Brinkerhoff (UBC Okanagan). This dataset comes from an
+OpenFOAM numerical simulation of incompressible transitional air flow over a wind turbine section. The
+fluid is treated incompressible due to the low Mach number. The airfoil is NACA0018, a common research
+airfoil used to study wind turbine aerodynamics.
 
-To reduce the size of the dataset, we include a fairly short time range $$t=14.88308-15.01908$$ and store
-only every third timestep (resulting in 86 steps) and five variables:
+To reduce the size of the dataset, we include a fairly short time range ($$t=14.88308-15.01908$$) and
+store five variables at every third timestep, resulting in 86 steps:
 
 - *p* is the gauge static pressure (actually, static pressure divided by density, but density is constant
   in incompressible flow, so it functions as static pressure);
@@ -40,7 +40,7 @@ only every third timestep (resulting in 86 steps) and five variables:
 
 Please note that while the first three variables (*p*, *U*, *vorticity*) are available for all 86
 timesteps, the last two (*Lambda2*, *Q*) are available only for the fist 50 timesteps. Also note that
-around $$t=14.92308$$ the timestep increases.
+around $$t=14.92308$$, the timestep increases.
 
 <!-- From the scientific perspective, -->
 <!-- The underlying physical problem lies in understanding the separation of the laminar boundary layer from -->
@@ -49,10 +49,10 @@ around $$t=14.92308$$ the timestep increases.
 <!-- blade surface. This process of separated flow transition is a critical process in the aerodynamics of -->
 <!-- wind turbines, wings, gas turbines, etc. -->
 
-Below, we provide a simple rendering of the velocity magnitude done with ParaView on Cedar cluster. The
-entire visualization with 286 frames took about 20 minutes to render on 64 CPU cores, with most time
-spent on the time-dependent part towards the end of the video where we had to read each timestep from
-disk.
+Below, we provide a simple rendering of the velocity magnitude done with ParaView on the Cedar
+cluster. The entire visualization with 286 frames took about 20 minutes to render on 64 CPU cores, with
+most time spent on the time-dependent part towards the end of the video where we had to read each
+timestep from disk.
 
 <div class="flex-video">
 	<iframe width="650" height="350" src="https://player.vimeo.com/video/353444320" frameborder="0"
@@ -76,14 +76,14 @@ speed coloured by the Y-component of the vorticity took 17 minutes on 128 CPU co
 <sup>(Or click <a href="https://vimeo.com/354038712" target="_blank">here</a> to watch this video
 directly on Vimeo.)</sup>
 
-The dataset itself will be provided at the end of September on Cedar, Graham, Niagara, and Béluga
+The default dataset will be available at the end of September on the Cedar, Graham, Niagara, and Béluga
 clusters. You will need a <a
 href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account"
 target="_blank">Compute Canada account</a> (free to all Canadian researchers) to access the data. Since
 the dataset is ~1.04 TB in size, we stronly advise *not* to copy or download it to your machine. Instead,
 please read it directly into your visualization program from its original location.
 
-Submissions are due by midnight Pacific Time on November 30, 2019.
+Submissions are due by midnight Pacific Time (9 p.m. ET) on November 30, 2019.
 
 
 

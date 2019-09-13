@@ -11,11 +11,11 @@ lang: en
 <!-- Hence parallel processing of the data and execution of the visualization pipeline is needed. -->
 
 This year's *Visualize This!* challenge focuses on processing and visualizing large datasets with
-parallel rendering. Both ParaView and VisIt described below were designed with parallel visualization in
-mind. Both tools are cross-platform, capable of running on a variety of different operating systems
-(Linux, Windows, and MacOS), although we highly recommend participants to execute their visualization
+parallel rendering. We recommend using either ParaView or VisIt which were designed with parallel
+visualization in mind. Both tools are cross-platform, capable of running on a variety of different
+operating systems (Linux, Windows, and MacOS). Participants are asked to execute their visualization
 pipeline in a high-performance computing (HPC) cluster environment taking advantage of parallel
-rendering, and working either in client-server or batch offscreen rendering mode.
+rendering, and to work either in client-server or batch offscreen rendering mode.
 
 <!-- These tools are perfectly well suited for running in HPC cluster environments, can run in client-server -->
 <!-- mode and take full advantage of multi-core and multi-node architectures, as well as, batch rendering. -->
@@ -23,13 +23,13 @@ rendering, and working either in client-server or batch offscreen rendering mode
 <!-- Of course there are many other tools that can be used, but here we will restrict to discuss and present, -->
 <!-- VisIt and ParaView. -->
 
-There are other parallel tools you can use besides ParaView and VisIt, down to writing your own code and
-decomposing the rendering problem with parallel MPI programming. However, these solutions will likely be
-lower level and hence not recommended for this competition, unless you are visualizing your own data and
-have a very domain-specific workflow.
+There are other parallel tools you can use besides ParaView and VisIt, and you can even write your own
+code and decompose the rendering problem with parallel MPI programming. However, these solutions will
+likely be lower level and hence not recommended for this competition, unless you are visualizing your own
+data and have a very domain-specific workflow.
 
 Both ParaView and VisIt can be installed as precompiled binaries or compiled from source code. Both offer
-an interactive GUI and a Python command-line / scripting interface, along with a "recording" tool to
+an interactive GUI and a Python command-line / scripting interface, along with a *recording* tool to
 convert GUI actions into Python code. This code can then be modified and converted into a batch
 processing script to run on a cluster.
 
@@ -64,9 +64,10 @@ Started as a collaboration between Los Alamos National Lab and Kitware Inc., <a
 href="https://www.paraview.org" target="_blank">ParaView</a> is now primarily developed and maintained by
 Kitware Inc. ParaView is an open-source, multi-platform data analysis and visualization application
 capable of reading over a hundred different file formats, including OpenFOAM. To load this competition's
-default dataset, you need to load the file `case.foam` in its top-level directory. This is a dummy, empty
+default dataset, you need to open the file `case.foam` in its top-level directory. This is a dummy, empty
 file that ParaView uses as a guide to identify and load the OpenFOAM simulation data.
 
+* <a href="https://docs.computecanada.ca/wiki/ParaView" target="_blank">Running ParaView on Compute Canada's clusters</a>
 * <a href="http://www.paraview.org/documentation" target="_blank">Official ParaView documentation</a>
 * <a href="https://discourse.paraview.org" target="_blank">ParaView Discourse</a> (forum)
 * <a href="https://www.paraview.org/Wiki/ParaView_Release_Notes" target="_blank">Latest ParaView release notes</a>
@@ -80,7 +81,7 @@ file that ParaView uses as a guide to identify and load the OpenFOAM simulation 
 
 ### VisIt
 
-Currently developed and maintained by Lawrence Livermore National Lab, <a
+Currently developed and maintained by the Lawrence Livermore National Lab, <a
 href="https://wci.llnl.gov/simulation/computer-codes/visit" target="_blank">VisIt</a> is an open-source
 interactive scalable visualization, animation, and analysis tool. VisIt can read over a hundred different
 file formats too, including OpenFOAM data.
@@ -91,6 +92,7 @@ frequent crashes when drawing plots with remote client-server rendering. For the
 only 2.3.x on our clusters. If you are experiencing similar issues, please feel free to
 [contact us](mailto:viz-challenge@westgrid.ca).
 
+* <a href="https://docs.computecanada.ca/wiki/VisIt" target="_blank">Running VisIt on Compute Canada's clusters</a>
 * <a href="https://visit-sphinx-github-user-manual.readthedocs.io" target="_blank">Official VisIt documentation</a>
 * <a href="http://www.visitusers.org" target="_blank">VisIt Users wiki</a>
 * <a href="http://www.visitusers.org/forum" target="_blank">VisIt Users Forum</a>
@@ -105,8 +107,8 @@ only 2.3.x on our clusters. If you are experiencing similar issues, please feel 
 #### Blender
 
 Compared to ParaView and VisIt, <a href="https://www.blender.org" target="_blank">Blender</a> is more of
-a 3D artistic visualization and animation tool than a proper "scientific visualization" package. The
-quality and style of Blender visualizations can reach "Hollywood level", but, due to its complexity and a
+a 3D artistic visualization and animation tool than a proper scientific visualization package. The
+quality and style of Blender visualizations can reach *Hollywood level*, but due to its complexity and a
 large set of features, the learning curve is quite steep, especially for mastering the more advanced and
 visually appealing features.
 
@@ -114,8 +116,8 @@ visually appealing features.
 <!-- importing models, objects, as well as, provides several engines to simulate quite realistic scenarios. -->
 
 For example, Blender can import 3D scenes from traditional visualization packages and apply
-photo-realistic rendering. However, unless you have already reached certain level of proficiency with
-Blender, we do not recommend using it for this competition.
+photo-realistic rendering. However, unless you have already reached a certain level of proficiency with
+Blender, we do not recommend it for this competition.
 
 
 
@@ -131,9 +133,3 @@ Blender, we do not recommend using it for this competition.
   Canada's national clusters</a>
 * <a href="https://westgrid.github.io/trainingMaterials/tools/visualization" target="_blank">WestGrid's
   visualization training materials and webinars</a>
-
-
-
-
-<!-- * <a href="https://docs.computecanada.ca/wiki/ParaView" target="_blank">Running ParaView on Compute Canada's clusters</a> -->
-<!-- * <a href="https://docs.computecanada.ca/wiki/VisIt" target="_blank">Running VisIt on Compute Canada's clusters</a> -->

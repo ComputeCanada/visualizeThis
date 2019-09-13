@@ -193,7 +193,7 @@ directly on Vimeo.)</sup>
 
 The second prize went to Usman Alim and Roberta Cabral Ramos Mota from the Department of Computer Science
 at the University of Calgary. Below you can watch one of their visualizations (rendered with OSPRay in
-ParaView) showing the protein cavity and two "highly-interacting" PO4 beads with the colour representing
+ParaView) showing the protein cavity and two *highly-interacting* PO4 beads with the colour representing
 time step. This work was selected for their skillful use of Python scripting for the bulk of the
 analysis: using <a href="https://www.mdanalysis.org" target="_blank">MDAnalysis</a> library for
 identifying closely interacting membrane beads, and writing bead positions in VTK to be rendered in

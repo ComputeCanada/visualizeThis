@@ -21,7 +21,7 @@ station de travail.
 
 ### Option 2: utilisez les données que nous vous fournissons
 
-Si vous n'avez pas accès à de telles données, vous pouvez utiliser un jeu de données de mécanique des
+Si vous n'avez pas accès à de telles données, vous pouvez utiliser le jeu de données de mécanique des
 fluides numérique (MFN) gracieusement fourni par Joshua Brinkerhoff (UBC Okanagan) pour ce concours. Cet
 ensemble de données provient d'une simulation numérique OpenFOAM d'un flux d'air de transition
 incompressible sur une section d'éolienne. Le fluide est considéré incompressible en raison nombre de
@@ -36,19 +36,19 @@ variables:
   la densité est constante dans un flux incompressible, de sorte qu'elle fonctionne comme une pression
   statique);
 - *U* est le vecteur de vélocité;
-- *Vorticity* est le vecteur du tourbillon (courbure de la vitesse);
+- *vorticity* est le vecteur du tourbillon (courbure de la vitesse);
 - *Lambda2* est la deuxième valeur propre du tenseur symétrique $$ S ^ 2 + \ Omega ^ 2 $$, où $$ S $$ et
   $$ \ Omega $$ sont les composantes symétriques et antisymétriques du tenseur à gradient de vitesse;
 - *Q* est le deuxième invariant du tenseur de gradient de vitesse.
 
 Veuillez noter que bien que les trois premières variables (p, U, Vorticity) soient disponibles pour les
-86 pas de temps, les deux dernières (Lambda2, Q) ne sont disponibles que pour les 50 premiers pas. Notez
+86 pas de temps, les deux dernières (Lambda2, Q) ne sont disponibles que pour les 50 premiers. Notez
 également que, autour de $$ t = 14.92308 $$, le pas de temps augmente.
 
-Ci-dessous, nous fournissons un rendu simple de la magnitude de la vitesse effectuée avec ParaView sur
-Cedar. La visualisation intégrale avec 286 images a nécessité environ 20 minutes de rendu sur 64 cœurs,
-la majeure partie du temps étant consacrée à la partie dépendante du temps, vers la fin de la vidéo où
-nous devions lire chaque pas de temps directement à partir du disque.
+Ci-dessous, nous fournissons un rendu simple de la magnitude de la vitesse effectuée avec ParaView sur le
+supercalculateur Cedar. La visualisation intégrale avec 286 images a nécessité environ 20 minutes de
+rendu sur 64 cœurs, la majeure partie du temps étant consacrée à la partie dépendante du temps, vers la
+fin de la vidéo où nous devions lire chaque pas de temps directement à partir du disque.
 
 <div class="flex-video">
 	<iframe width="650" height="350" src="https://player.vimeo.com/video/353444320" frameborder="0"

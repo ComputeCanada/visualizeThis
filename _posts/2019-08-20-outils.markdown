@@ -43,6 +43,7 @@ de fichiers différents, incluant OpenFOAM. Pour charger le jeu de données four
 vous devez charger le fichier case.foam dans le répertoire principal. Il s’agit d’un fichier vide que
 ParaView utilise comme guide pour identifier et charger les données de simulation OpenFOAM.
 
+* <a href="https://docs.computecanada.ca/wiki/ParaView/fr" target="_blank">Running ParaView on Compute Canada's clusters</a>
 * <a href="http://www.paraview.org/documentation" target="_blank">Official ParaView documentation</a>
 * <a href="https://discourse.paraview.org" target="_blank">ParaView Discourse</a> (forum)
 * <a href="https://www.paraview.org/Wiki/ParaView_Release_Notes" target="_blank">Latest ParaView release notes</a>
@@ -62,6 +63,7 @@ récentes. Dans la même version 3.x, nous rencontrions des problèmes fréquent
 tracés avec un rendu client-serveur distant. Pour ces raisons, nous ne fournissons que 2.3.x sur nos
 machines. Si vous rencontrez des problèmes similaires, n'hésitez pas à nous contacter.
 
+* <a href="https://docs.computecanada.ca/wiki/VisIt/fr" target="_blank">Running VisIt on Compute Canada's clusters</a>
 * <a href="https://visit-sphinx-github-user-manual.readthedocs.io" target="_blank">Official VisIt documentation</a>
 * <a href="http://www.visitusers.org" target="_blank">VisIt Users wiki</a>
 * <a href="http://www.visitusers.org/forum" target="_blank">VisIt Users Forum</a>
@@ -83,7 +85,7 @@ maîtrise de Blender, nous vous déconseillons de l'utiliser pour cette compéti
 
 Ressources supplémentaires:
 
-* <a href="https://docs.computecanada.ca/wiki/Visualization" target="_blank">Visualization on Compute
+* <a href="https://docs.computecanada.ca/wiki/Visualization/fr" target="_blank">Visualization on Compute
   Canada's national clusters</a>
 * <a href="https://westgrid.github.io/trainingMaterials/tools/visualization" target="_blank">WestGrid's
   visualization training materials and webinars</a>
