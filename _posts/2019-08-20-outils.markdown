@@ -28,7 +28,7 @@ traitement automatique à exécuter sur un supercalculateur.
 
 Si vous ne connaissez ni ParaView ni VisIt, les deux méthodes sont assez faciles à maîtriser et nous vous
 recommandons d’installer et d’expérimenter une version locale sur votre ordinateur avant toute tentative
-de rendu en parallèle. Au bas de cette page, vous trouverez plusieurs liens vers de la documentation en
+de rendu parallèle. Au bas de cette page, vous trouverez plusieurs liens vers de la documentation en
 ligne sur ParaView et VisIt.
 
 En plus de leurs capacités de visualisation, ParaView et Visit offrent un riche ensemble d'outils

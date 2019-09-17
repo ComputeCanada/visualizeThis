@@ -40,11 +40,6 @@ Interactive Modeling, Visualization and Visual Analytics Research Group</a> at t
 visualizations are inspired by concepts of painting and other aspects from art and information
 visualization. From this thinking process, the decal-maps emerged."
 
-
-
-
-
-
 ## 2017
 ### Airflow around counter-rotating wind turbines
 
@@ -119,12 +114,6 @@ engine.
 
 <sup>(Or click <a href="https://vimeo.com/246882338" target="_blank">here</a> to watch this video
 directly on Vimeo.)</sup>
-
-
-
-
-
-
 
 ## 2018
 
@@ -218,13 +207,6 @@ target="_blank">D3.js</a> and <a href="https://threejs.org" target="_blank">Thre
 data files produced with Python scripting. Not all features of this visualization are complete, so we are
 not showing it here, but it is likely to remain a side project in the lab over the next few months, with
 the promise to show clustering based on ideology, religion, or geographic proximity.
-
-
-
-
-
-
-
 
 <!-- https://westgrid.github.io/visualizeThis -->
 <!-- https://www.computecanada.ca/research-portal/national-services/visualization -->
