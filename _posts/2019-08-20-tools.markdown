@@ -67,6 +67,12 @@ capable of reading over a hundred different file formats, including OpenFOAM. To
 default dataset, you need to open the file `case.foam` in its top-level directory. This is a dummy, empty
 file that ParaView uses as a guide to identify and load the OpenFOAM simulation data.
 
+In our Sep-18 webinar <a
+href="https://westgrid.github.io/trainingMaterials/tools/visualization/#batch-visualization-on-compute-canada-clusters"
+target="_blank">*Batch visualization on Compute Canada clusters*</a> you can see a live demo of
+interactive client-server visualization of the default dataset on 128 Cedar cores (slides 32-37 and an
+upcoming video recording) and creating a batch script from this session.
+
 * <a href="https://docs.computecanada.ca/wiki/ParaView" target="_blank">Running ParaView on Compute Canada's clusters</a>
 * <a href="http://www.paraview.org/documentation" target="_blank">Official ParaView documentation</a>
 * <a href="https://discourse.paraview.org" target="_blank">ParaView Discourse</a> (forum)
