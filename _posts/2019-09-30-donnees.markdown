@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Jeu de données est maintenant disponible"
+ref: dataset
+date: 2019-09-30
+categories: competition
+lang: fr
+---
+
+French translation is coming shortly.

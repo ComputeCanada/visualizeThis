@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Default dataset now available"
+ref: dataset
+date: 2019-09-30
+categories: competition
+lang: en
+---
+
+On Compute Canada clusters, you can find the default dataset in the following directories:
+
+* Cedar: /project/6003910/VisThis2019
+* Graham: /project/6003910/VisThis2019
+* Béluga: /project/6003910/VisThis2019
+* Niagara: /scinet/course/VisThis2019
+
+The dataset should be visible to all users and is stored in the OpenFOAM *decomposed* format: there are
+512 processor directories, each has 86 timestep subdirectories, with 3-5 gzipped variables
+inside. ParaView can understand this format directly without unzipping. Please load the file `case.foam`
+from the top-level directory using parallel I/O from your favourite library or application.
+
+Please don't download the dataset to your laptop or desktop, as it is over 900GB. Not only will it take
+at least several days to download it over a typical (30Mbps) broadband connection, the dataset is too
+large to load into memory on a standalone workstation.

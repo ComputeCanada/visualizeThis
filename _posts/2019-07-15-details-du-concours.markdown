@@ -73,7 +73,9 @@ sur Cedar.
 <sup>(Ou cliquez<a href="https://vimeo.com/354038712" target="_blank">ici</a> pour regarder cette vidéo
 directement sur Vimeo.)</sup>
 
-Le jeu de données lui-même sera fourni à la fin du mois de septembre sur les grappes Cedar, Graham,
+Le jeu de données lui-même
+[est disponible]( {{ site.baseurl }}/competition/2019/09/30/dataset.html)
+sur les grappes Cedar, Graham,
 Niagara et Béluga. Vous aurez besoin d'un compte Calcul Canada (gratuit pour tous les chercheurs
 canadiens) pour accéder aux données. Étant donné que la taille du jeu de données est d'environ 1,04 To,
 nous vous conseillons vivement de ne pas le copier ou le télécharger sur votre ordinateur. Veuillez
