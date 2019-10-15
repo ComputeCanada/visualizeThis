@@ -83,7 +83,7 @@ target="_blank">Compute Canada account</a> (free to all Canadian researchers) to
 the dataset is almost 1 TB in size, we stronly advise *not* to copy or download it to your
 machine. Instead, please read it directly into your visualization program from its original location.
 
-Submissions are due by midnight Pacific Time (9 p.m. ET) on November 30<sup>th</sup>, 2019.
+Submissions are due by midnight Pacific Time (3 a.m. ET) on November 30<sup>th</sup>, 2019.
 
 
 
