@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "Annonce des gagnants"
+ref: results
+date: 2019-12-17
+categories: competition
+lang: fr
+---
+
+Le challenge *Visualise ça !* 2019 a été organisé par WestGrid, SciNet, SHARCNET et Calcul Québec —
+partenaires régionaux de Calcul Canada. 20 individus et groupes de recherche ont exprimé leur intérêt à
+participer au concours cette année et nous avons reçu des soumissions très intéressantes. Après mûre
+réflexion, le jury a sélectionné trois gagnants.
+
+### Première place
+
+Thierry Villeneuve, thésard au Département de Génie Mécanique de l´Université Laval, a remporté la
+première place pour sa représentation 3D en fonction du temps de l'amplitude d´un tourbillon dans le
+sillage turbulent d'une turbine. Thierry a utilisé les données de son modèle CFD grâce à une technique de
+DDES (Delayed Detached-Eddy simulation) avec un domaine composé d´environ 10<sup>8</sup> cellules. La
+simulation a été réalisée sur 10 lames (400 coeurs) de la grappe Niagara de Calcul Canada et a pris à peu
+près deux mois. Les régions semi-opaques bleues / vertes représentent les zones de faible tourbillon et
+les régions en rouge montrent celles de haut tourbillon.
+
+<div class="flex-video">
+	<iframe src="https://player.vimeo.com/video/380107780" width="640" height="360" frameborder="0"
+	allow="autoplay; fullscreen" allowfullscreen mozallowfullscreen webkitAllowFullScreen></iframe>
+</div>
+
+<sup>(Cliquez <a href="https://vimeo.com/380107780" target="_blank">ici</a> pour visionner directement
+sur Vimeo.)</sup>
+
+### Deuxième place
+
+La deuxième place est revenue à Yohai Meiron, un chercheur postdoctoral au Département d´Astronomie et
+d´Astrophysiques de l´Université de Toronto, pour sa démonstration des filtres et du rendu de VTK-m
+appliqués à la base de données standard de la compétition. <a href="http://m.vtk.org"
+target="_blank">VTK-m</a> est une bibliothèque d´outils scientifiques de visualisation pour les
+architectures multi-coeurs (CPU et GPU). Avec une interface en C++, VTK-m est une réécriture complète des
+fonctions et algorithmes de VTK. Certaines des fonctionnalités de VTK-m pouvent être utilisées via
+ParaView et VisIt.
+
+VTK-m est compatible avec MPI grâce à la classe `PartitionedDataSet`. La plupart des algorithmes fournis
+par défaut par VTK-m ne sont cependant pas capables de lire cette classe. La solution a été d´utiliser la
+bibliothèque <a href="https://github.com/Alpine-DAV/vtk-h" target="_blank">VTK-h</a> comme enveloppe
+autour de VTK-m, permettant un parallélisme hybride.
+
+La vidéo ci-dessous utilise quatre techniques de rendu différentes. La plus intéressante, visuellement,
+est la dernière : elle montre le rendu volumétrique de la composante z du vecteur tourbillon avec des
+structures cohérentes au-dessus et au-dessous du profil et un espace entre la structure inférieure et le
+profil lui-même.
+
+<div class="flex-video">
+	<iframe src="https://player.vimeo.com/video/380126028" width="640" height="360" frameborder="0"
+	allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+<sup>(Cliquez <a href="https://vimeo.com/380126028" target="_blank">ici</a> pour visionner directement
+sur Vimeo.)</sup>
+
+### Troisième place
+
+Le troisième prix a été décerné à Joshua Ludwig, thésard au Département d´État Plasma de l´Université
+d´Alberta. Sa vidéo (ci-dessous) a été réalisée avec son propre code de tracé parallèle de rayons sur 5
+lames (160 coeurs) sur la grappe Graham de Calcul Canada.
+
+La vidéo montre la densité électronique du plasma (faible en bleu et élevée en rouge). La caméra se
+déplace à la vitesse de la lumière pour suivre une brève pulsation laser de haute intensité (qui
+n´apparaît pas sur la vidéo). Cette pulsation est si intense qu´elle expulse tous les électrons sur son
+passage et crée une structure en forme de bulle dans le plasma. Cette "bulle" contient encore des ions
+chargés positivement en raison de leur grande masse et a du coup de forts champs électriques qui attirent
+des électrons à l´intérieur et les fait accélérer lorsqu´ils se déplacent avec la pulsation laser. C´est
+le "Relativistic Laser Wakefield Acceleration".
+
+La simulation a été conduite sur 32 lames (1 280 coeurs) de la grappe Niagara de Calcul Canada à l'aide
+d'OSIRIS, un code de modélisation 3D de plasma utilisant une méthode de "particules en cellule"
+entièrement relativiste. Elle a résolu les équations de Maxwell pour les champs électriques et
+magnétiques sur une grille de 3600x1800x1800 couvrant le domaine 160x120x120&micro;m avec ~23 milliards
+d´électrons. Le résultat utilisé pour produire cette vidéo faisait près de 20TB.
+
+<div class="flex-video">
+	<iframe src="https://player.vimeo.com/video/380129427" width="640" height="360" frameborder="0"
+	allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+	
+<sup>(Cliquez <a href="https://vimeo.com/380129427" target="_blank">ici</a> pour visionner directement
+sur Vimeo.)</sup>
+
+### Remerciements
+
+Dell EMC a généreusement fait don du premier prix : un moniteur Dell UltraSharp 32” 4K USB-C. Un grand merci à Dell EMC pour le soutien qu´ils continuent d´apporter aux systèmes de calcul informatique de pointe au Canada !
