@@ -19,8 +19,9 @@ Engineering at Université Laval, for his time-dependent 3D volume rendering of 
 a turbulent turbine wake. The dataset was taken from Thierry's own CFD model using a DDES (Delayed
 Detached-Eddy simulation) approach with a domain composed of approximately 10<sup>8</sup> cells. The
 simulation has been performed on Compute Canada's Niagara cluster using 10 nodes (400 cores) and took
-about two months. The blue / green semi-opaque regions represent low-vorticity zones, while the red
-regions show high-vorticity zones.
+about two months. The output with the three components of the vorticity vector was saved every 20 time
+steps, resulting in ~2200 frames. The blue / green semi-opaque regions represent low-vorticity zones,
+while the red regions show high-vorticity zones.
 
 <div class="flex-video">
 	<iframe src="https://player.vimeo.com/video/380107780" width="640" height="360" frameborder="0"
